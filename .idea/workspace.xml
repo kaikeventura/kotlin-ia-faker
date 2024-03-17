@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31614571-02c3-4141-b640-83e8ffbca301" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/faker/src/main/resources/pt-br/name.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="31614571-02c3-4141-b640-83e8ffbca301" name="Changes" comment="Criado módulos para separar responsabilidades">
+      <change afterPath="$PROJECT_DIR$/faker/src/main/kotlin/com/kaikeventura/kiafaker/HumanFaker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faker/src/main/kotlin/com/kaikeventura/kiafaker/reader/JsonReader.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faker/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/faker/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faker/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faker/src/main/resources/pt-br/human.json" beforeDir="false" afterPath="$PROJECT_DIR$/faker/src/main/resources/pt-br/human.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,6 +64,7 @@
   "keyToString": {
     "Gradle.Build kotlin-ia-faker.executor": "Run",
     "Gradle.kotlin-ia-faker [build].executor": "Run",
+    "Kotlin.JsonReaderKt.executor": "Debug",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,12 +74,17 @@
     "last_opened_file_path": "/home/kaike/Git/kotlin-ia-faker/core/src/test/kotlin"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/test/kotlin" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.kotlin-ia-faker [build]">
+  <component name="RunManager" selected="Kotlin.JsonReaderKt">
     <configuration name="kotlin-ia-faker [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -93,6 +107,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="JsonReaderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kaikeventura.kiafaker.reader.JsonReaderKt" />
+      <module name="kotlin-ia-faker.faker.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kaikeventura.MainKt" />
       <module name="kotlin-ia-faker.main" />
@@ -102,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.JsonReaderKt" />
         <item itemvalue="Gradle.kotlin-ia-faker [build]" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -124,6 +146,19 @@
       <option name="presentableId" value="Default" />
       <updated>1710681783482</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criado módulos para separar responsabilidades">
+      <option name="closed" value="true" />
+      <created>1710685856856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710685856856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criado módulos para separar responsabilidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado módulos para separar responsabilidades" />
   </component>
 </project>
