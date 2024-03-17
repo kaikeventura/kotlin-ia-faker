@@ -1,4 +1,4 @@
-package com.kaikeventura.kiafaker.reader
+package com.kaikeventura.kiafaker.json.reader
 
 import com.google.gson.Gson
 
