@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":faker"))
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
