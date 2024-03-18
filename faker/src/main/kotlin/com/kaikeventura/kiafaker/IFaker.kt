@@ -1,5 +1,5 @@
 package com.kaikeventura.kiafaker
 
-fun interface IFaker<T> {
+internal fun interface IFaker<T> {
     fun load(): T
 }
